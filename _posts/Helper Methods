@@ -1,0 +1,8 @@
+# Helper Methods
+This week I learned how to write tests for our code and how to refactor our code with ruby to make it more robust.
+
+## Code Testing
+Writing tests for code is an essential part of ensuring that our code works as expected. I wrote two tests for the helper_methods program that ensured that expected text was on a page, and that a movie was not committed without a title.
+
+## Refactoring code
+I learned how to refactor code all along the RCAV in order to make it more robust. Mostly, we were taking code previously written in HTML and using ruby methods to generate that HTML dynamically.

@@ -1,0 +1,27 @@
+This week, I took a JavaScript Bootcamp course on Scrimba.
+
+In this post, I will discuss three topics which I learned about JavaScript:
+  1. Arrow Functions
+  2. The reduce function for arrays
+  
+First, Arrow functions are a way to make our code shorter and more readable (in some cases). You can reduce the following function:
+
+function divideThree(nums) {  return nums / 3}function timesThree(nums) {
+  return nums * 2
+}
+
+to this:
+
+var divideThree = nums => nums / 3
+
+This is a very new syntax for me and will take some getting used to.
+
+Second, the reduce function is essentially a shorthand for a for loop that you can use on an Array. You can use reduce to filter arrays, sum arrays, and a number of other use cases.
+
+A reduce function looks something like this:
+
+let numbers = [1, 2, 3];
+let sum = numbers.reduce(function (acc, number) {
+    return acc + number;
+});
+
